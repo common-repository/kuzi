@@ -1,0 +1,74 @@
+@charset "UTF-8";
+.reel{
+    border: 1px solid #707070;
+    background: #fff;
+    background: -moz-linear-gradient(top, #f0f0f0, #ffffff 45%, #ffffff 65%, #f0f0f0);
+    background: -o-linear-gradient(top, #f0f0f0, #ffffff 45%, #ffffff 65%, #f0f0f0);
+    background: -webkit-linear-gradient(top, #f0f0f0, #ffffff 45%, #ffffff 65%, #f0f0f0);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #f0f0f0), color-stop(0.45, #ffffff), color-stop(0.65, #ffffff), color-stop(1.00, #f0f0f0));
+    box-shadow: 0 0 2px 0 rgba(255,255,255,1) inset;
+    -moz-box-shadow: 0 0 2px 0 rgba(255,255,255,1) inset;
+    -webkit-box-shadow: 0 0 2px 0 rgba(255,255,255,1) inset;
+    padding:0.5em;
+    height:80px;
+    overflow: hidden;
+}
+.reel div{
+    white-space:nowrap;
+    display: table;
+    vertical-align: middle;
+    width:100%;
+    text-align:center;
+}
+.rA{font-size:10px;color:#ccc;height:14px;}
+.rB{font-size:12px;color:#999;height:16px;}
+.rC{font-size:16px;font-weight:bold;height:18px;}
+
+.btn {
+    display:block;
+    margin:0.5em 0 0;
+    padding:1.5em 0;
+    white-space:nowrap;
+    text-decoration: none;
+    text-align: center;
+    font-family:"メイリオ", "ＭＳ ゴシック", "Osaka";
+    font-size:12px;
+    color: #000;
+    border: 1px solid #707070;
+    -moz-border-radius: .3em;
+    border-radius: .3em;
+}
+.btn{
+    border: 1px solid #707070;
+    background: #EBEBEB;
+    background: -moz-linear-gradient(top, #F2F2F2, #EBEBEB 50%, #DBDBDB 50%, #CFCFCF);
+    background: -o-linear-gradient(top, #F2F2F2, #EBEBEB 50%, #DBDBDB 50%, #CFCFCF);
+    background: -webkit-linear-gradient(linear, top, bottom, #F2F2F2, color-stop(0.5 #EBEBEB), color-stop(0.5 #DBDBDB), #CFCFCF);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #F2F2F2), color-stop(0.50, #EBEBEB), color-stop(0.50, #DBDBDB), color-stop(1.00, #CFCFCF));
+    background: linear-gradient(linear, left top, left bottom, #F2F2F2, color-stop(0.5 #EBEBEB), color-stop(0.5 #DBDBDB), #CFCFCF);
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#F2F2F2', endColorstr='#CFCFCF');
+    box-shadow: 0 0 2px 0 rgba(255,255,255,1) inset;
+    -moz-box-shadow: 0 0 2px 0 rgba(255,255,255,1) inset;
+    -webkit-box-shadow: 0 0 2px 0 rgba(255,255,255,1) inset;
+}
+.btn:hover{
+    border: 1px solid #3C7FB1;
+    background: #D9F0FC;
+    background: -moz-linear-gradient(top, #EAF6FD, #D9F0FC 50%, #BCE5FC 50%, #A7D9F5);
+    background: -o-linear-gradient(top, #EAF6FD, #D9F0FC 50%, #BCE5FC 50%, #A7D9F5);
+    background: -webkit-linear-gradient(linear, top, bottom, #EAF6FD, color-stop(0.5 #D9F0FC), color-stop(0.5 #BCE5FC), #A7D9F5);
+    background: -webkit-gradient(linear, left top, left bottom, color-stop(0.00, #EAF6FD), color-stop(0.50, #D9F0FC), color-stop(0.50, #BCE5FC), color-stop(1.00, #A7D9F5));
+    background: linear-gradient(linear, left top, left bottom, #EAF6FD, color-stop(0.5 #D9F0FC), color-stop(0.5 #BCE5FC), #A7D9F5);
+    filter:  progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#EAF6FD', endColorstr='#A7D9F5');
+}
+a.btn:active{
+    box-shadow: 0 0 2px 0 rgba(128,128,128,1) inset;
+    -moz-box-shadow: 0 0 2px 0 rgba(128,128,128,1) inset;
+    -webkit-box-shadow: 0 0 2px 0 rgba(128,128,128,1) inset;
+}
+.checkReel{
+    margin:0.5em 0.5em 0;
+    padding:0.5em 0.5em;
+    border:1px solid #ccc;
+    background:#fff;
+}
